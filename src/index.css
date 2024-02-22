@@ -1,0 +1,25 @@
+#root{
+    height: 100vh;
+}
+.render-modal{
+    background-image: linear-gradient(rebeccapurple, white);
+}
+.modal-top{
+    position: relative;
+}
+.modal-heading{
+    color: white;
+    text-align: center;
+}
+.contact{
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-decoration: none;
+    color: white;
+}
+.contact:hover{
+    text-decoration: underline;
+    color: white;
+    text-underline-offset: 5px;
+}
